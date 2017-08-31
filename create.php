@@ -159,6 +159,7 @@ $this->title="添加轮播图图片";
                         .append(error);
                 }
             });
+            //循环从服务器接受到的数值，并把值赋到隐藏域里面
             var arr=[];
             $('a').each(function(i){
                 if($('a').eq(i).prop('target')=='_blank'){
